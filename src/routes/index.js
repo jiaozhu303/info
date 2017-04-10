@@ -1,12 +1,12 @@
 import React from 'react';
 import {Router, Route, IndexRoute, hashHistory} from 'react-router';
 
-import App from '../layouts/App/index';
-import About from '../containers/About/index';
-import Contact from '../containers/Contact/index';
-import Home from '../containers/Home/index';
-import Skills from '../containers/Skills/index';
-import Project from '../containers/Project/index';
+import App from '../layouts/App';
+import About from '../containers/About';
+import Contact from '../containers/Contact';
+import Home from '../containers/Home';
+import Skills from '../containers/Skills';
+import Project from '../containers/Project';
 
 export default (
     <Router history={hashHistory}>
