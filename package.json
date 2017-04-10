@@ -6,8 +6,8 @@
   "repository": "https://github.com/jiaozhu303/info.git",
   "author": "Dongjie <zhaodj5@lenovo.com>",
   "license": "MIT",
-  "scripts":{
-    "start":"webpack-dev-server --progress --color --content-base dist"
+  "scripts": {
+    "start": "webpack-dev-server --progress --color --content-base dist"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -16,7 +16,7 @@
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-0": "^6.22.0",
     "css-loader": "^0.28.0",
-    "extract-text-webpack-plugin": "beta",
+    "extract-text-webpack-plugin": "^2.1.0",
     "html-webpack-plugin": "^2.28.0",
     "style-loader": "^0.16.1",
     "webpack": "^2.3.3",
