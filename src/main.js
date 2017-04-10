@@ -2,7 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './main.css';
 
-import App from './layouts/App';
+import './assets/fonts/iconfont.css';
+import 'antd/dist/antd.css';
+
+import route from './routes/index';
 
 
-ReactDOM.render(<App/>,document.querySelector("#app"));
+ReactDOM.render(route, document.querySelector("#app"));

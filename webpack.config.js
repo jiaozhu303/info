@@ -26,6 +26,16 @@ module.exports = function () {
                         use: "css-loader",
                         publicPath: "/dist"
                     })
+                },
+                {
+                    test: /\.(woff|svg|eot|ttf)(\?.*)?$/,
+                    loader: "url-loader?limit=50000",
+                    exclude: /node_modules/
+                },
+                {
+                    test: /\.(png|jpg|gif)$/,
+                    loader: "url-loader?limit=819200",
+                    exclude: /node_modules/
                 }
             ]
         },
