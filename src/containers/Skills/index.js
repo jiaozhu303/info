@@ -21,8 +21,6 @@ class Skills extends Component {
 
     render() {
         const data = [
-            {id: 1, styleName: "icon-weixin", title: "微信", desc: "小程序"},
-            {id: 2, styleName: "icon-github", title: "CVS", desc: "github"},
             {id: 3, styleName: "icon-html", title: "html", desc: "H5"},
             {id: 4, styleName: "icon-jquery", title: "js", desc: "jquery"},
             {id: 5, styleName: "icon-javascript", title: "js", desc: "javascript"},

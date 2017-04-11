@@ -1,0 +1,15 @@
+.contact {
+
+}
+
+.contact-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-content {
+    margin-left: 1em;
+}
