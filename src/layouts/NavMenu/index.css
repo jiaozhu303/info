@@ -1,5 +1,5 @@
 .layout-aside {
-    width: 180px;
+    width: 10%;
     position: absolute;
     top: 0;
     left: 0;
@@ -7,6 +7,10 @@
     right: 0;
     background-color: #404040;
     transition: all 0.3s;
+}
+
+.layout-aside-collapse {
+    width: 4%;
 }
 
 ul li {
@@ -23,7 +27,7 @@ a {
 }
 
 .aside-action {
-    width: 180px;
+    width: 100%;
     height: 45px;
     line-height: 45px;
     position: absolute;
@@ -35,7 +39,7 @@ a {
 }
 
 .aside-action-collapse {
-    width: 80px;
+    width: 100%;
     transition: all .3s;
 }
 

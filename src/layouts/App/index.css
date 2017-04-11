@@ -1,29 +1,32 @@
 
 .main {
     position: absolute;
-    left: 180px;
+    left: 10%;
     top: 0;
     bottom: 0;
     right: 0;
-    width: 100%;
+    width: 90%;
     background-color: #faffe3;
     transition: all .3s;
 }
 
 .main-collapse {
-    left: 80px;
+    left: 4%;
+    width: 96%;
     transition: all .3s;
 }
 
 .app {
     position: relative;
     height: 100%;
+    width: 100%;
     transition: all 0.3s;
 }
 
 .content {
     position: absolute;
     height: 100%;
+    width: 100%;
 }
 
 .app-enter {

@@ -22,7 +22,7 @@ class NevMenu extends Component {
         };
 
         return (
-            <aside className="layout-aside">
+            <aside className={this.props.collapse ? "layout-aside" : "layout-aside layout-aside-collapse"}>
                 <div className="layout-logo">
                     <i className="icon iconfont icon-jianli logo">&nbsp;</i>
                     {this.props.collapse ? <span className="title-text">zhaoDJ</span> : ""}
