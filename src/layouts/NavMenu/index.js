@@ -28,7 +28,7 @@ class NevMenu extends Component {
                     {this.props.collapse ? <span className="title-text">zhaoDJ</span> : ""}
                 </div>
                 <Menu mode="inline" theme="dark" defaultSelectedKeys={["home"]}
-                      selectedKeys={[this.props.collapse ? this.props.pathName : ""]}>
+                      selectedKeys={[this.props.pathName]}>
                     {getMenu(data)}
                 </Menu>
                 <div className={this.props.collapse ? "aside-action" : "aside-action aside-action-collapse"}
