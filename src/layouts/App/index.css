@@ -8,6 +8,7 @@
     width: 90%;
     background-color: #faffe3;
     transition: all .3s;
+    overflow: auto;
 }
 
 .main-collapse {

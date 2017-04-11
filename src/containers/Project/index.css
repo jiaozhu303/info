@@ -1,0 +1,13 @@
+.project-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    width: 100%;
+    text-align: center;
+}
+
+.project-content {
+    margin-left: 10vh;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
