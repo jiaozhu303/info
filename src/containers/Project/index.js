@@ -20,8 +20,6 @@ class Project extends Component {
 
     render() {
 
-        console.log(this.state.repos);
-
         return (<div className="project">
             <div className="project-title">我的项目经验</div>
             <div className="project-content">
